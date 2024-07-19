@@ -1,15 +1,13 @@
 .celebrity-card-wrapper{
     width: auto;
-    /* min-width: 100%; */
     height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
     border: 1.5px solid #C8C8C9;
-    margin: 20px 10px;
+    margin: 10px 10px;
     padding: 15px 20px;
-    cursor: pointer;
 }
 
 .celebrity-profile-pic{
@@ -26,6 +24,7 @@
     justify-content: space-between; 
     align-items: center; 
     width: 100%;
+    cursor: pointer;
 }
 
 .celebrity-profile-details-section{
@@ -47,14 +46,14 @@
     justify-content: center; 
     align-items: center; 
     width: 100%;
-    padding: 20px 5px;
+    padding: 20px 5px 10px 5px;
 }
 
 .grid{
     display: grid;
     grid-template-rows: repeat(2, 1fr); 
     grid-template-columns: repeat(3, 1fr); 
-    gap: 3px; 
+    gap: 3px 10px; 
     width: 100%;
 }
 
@@ -69,6 +68,11 @@
     font-size: 1rem;
 }
 
+.celebrity-details-label-warning{
+    color: red;
+    font-size: .7rem;
+}
+
 .celebrity-details{
     color: #1A1A1F;
     font-size: 1rem;
@@ -81,8 +85,8 @@
     align-items:center; 
     gap:10px; 
     border:1px solid #767679; 
-    margin:10px 10px 0px 10px; 
-    padding:10px 20px; 
+    margin: 10px; 
+    padding:5px 20px; 
     border-radius: 10px;
 }
 
@@ -90,4 +94,52 @@
     outline:none; 
     border:none; 
     font-size:1rem;
+    width: 100%;
 }
+
+.celebrity-details-action-buttons{
+    display: flex; 
+    justify-content: flex-end; 
+    width: 100%; 
+    gap: 20px; 
+    align-items: center;
+}
+
+.celebrity-details-description-section{
+    margin: 10px 0px; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.description-section{
+    margin: 5px 0px;
+}
+
+textarea, input, select{
+    outline: none;
+    border-radius: 10px;
+    border: 1.5px solid #C8C8C9;
+    padding: 10px;
+    width: 100% !important;
+}
+
+textarea::-webkit-scrollbar {
+width: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+background: #f1f1f1;
+border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 10px;
+cursor: pointer;
+}
+  
+.approve-img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+  

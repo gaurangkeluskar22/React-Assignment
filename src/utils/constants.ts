@@ -223,6 +223,10 @@ export const data = [
 
 
 export const generateAge = (dob: string) => {
+	if(Number(dob)){
+		return Number(dob)
+	}
+	
 	const today = new Date();
     const birthDate = new Date(dob);
     let age = today.getFullYear() - birthDate.getFullYear();
@@ -232,3 +236,5 @@ export const generateAge = (dob: string) => {
     }
 	return age
 }
+
+export const genderDetails = ['Male', 'Female', 'Transgender', 'Rather not to say', 'Other']
