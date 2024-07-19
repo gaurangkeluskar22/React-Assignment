@@ -53,7 +53,6 @@ const CelebrityCard: React.FC<CelebrityCardProps> = ({
   };
 
   const handleCancle = (): void => {
-    setCardData(data);
     setIsEditing(false);
     setIsEditingCard(false);
     setIsMadeChanges(false);
