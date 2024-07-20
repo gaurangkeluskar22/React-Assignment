@@ -16,3 +16,7 @@
 ![image](https://github.com/user-attachments/assets/88dfc380-5014-42c8-a630-e98bc65f504f)
 
 ## Search Feature
+![image](https://github.com/user-attachments/assets/ffc8d2ec-5064-4242-84eb-4e41cba395ab)
+
+## Responsive UI
+![image](https://github.com/user-attachments/assets/0a0602a8-aac7-4998-bc93-ba59ff5ff602)
